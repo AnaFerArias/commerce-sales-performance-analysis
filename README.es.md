@@ -2,7 +2,7 @@
 
 **Excel · SQL (PostgreSQL) · Tableau**
 
-Análisis end-to-end de un negocio retail multiproducto durante 2023. El negocio generó **172.985 €** de revenue, pero **el 40 % de los pedidos se cancelaron o devolvieron**, lo que supone **114.255 € de revenue perdido**.
+Análisis end-to-end de un negocio retail multiproducto durante 2023. El negocio generó **172.985 €** de revenue, pero **el 41,8 % de los pedidos se cancelaron o devolvieron**, lo que supone **114.255 € de revenue perdido** (el 39,7 % del bruto).
 
 *Read in English: [README.md](README.md)*
 
@@ -44,10 +44,10 @@ Se introducen valores NULL de forma controlada (≈1 % por campo; 8,2 % en `cust
 
 | Hallazgo | Cifra |
 | --- | --- |
-| Revenue perdido por cancelaciones y devoluciones | 114.255 € (40 % del bruto, 288.140 €) |
+| Revenue perdido por cancelaciones y devoluciones | 114.255 € (39,7 % del bruto, 288.140 €) |
 | Tasa de cancelación | 17,7 % |
 | Tasa de devolución | 24,1 % (Clothing, la más alta: 28,3 %) |
-| Concentración del revenue en clientes VIP | 30 clientes VIP (14 %) generan el 37 % del revenue atribuible |
+| Concentración del revenue en clientes VIP | 30 clientes VIP (14 %) generan el 37 % del revenue con cliente identificado |
 | Principal driver de revenue | Electronics, 39,6 % del revenue |
 | Negocio e-commerce | Online + Mobile = 85,9 % del revenue |
 | Beauty: mucho volumen, ticket bajo | 2.ª categoría en número de pedidos, pero ticket medio de 130 € (Electronics: 611 €) |

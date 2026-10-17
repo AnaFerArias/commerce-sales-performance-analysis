@@ -2,7 +2,7 @@
 
 **Excel · SQL (PostgreSQL) · Tableau**
 
-End-to-end analysis of a multi-product retail business in 2023. The business generated **172,985 €** in revenue, but **40% of orders were cancelled or returned**, which means **114,255 € of revenue was lost**.
+End-to-end analysis of a multi-product retail business in 2023. The business generated **172,985 €** in revenue, but **41.8% of orders were cancelled or returned**, and **114,255 € of revenue was lost** (39.7% of gross revenue).
 
 *Leer en español: [README.es.md](README.es.md)*
 
@@ -44,10 +44,10 @@ Controlled NULL values were introduced on purpose (≈1% per field, 8.2% in `cus
 
 | Finding | Figure |
 | --- | --- |
-| Revenue lost to cancellations and returns | 114,255 € (40% of gross revenue of 288,140 €) |
+| Revenue lost to cancellations and returns | 114,255 € (39.7% of gross revenue of 288,140 €) |
 | Cancellation rate | 17.7% |
 | Return rate | 24.1% (Clothing is the highest at 28.3%) |
-| Revenue concentration in VIP customers | 30 VIP customers (14%) generate 37% of attributable revenue |
+| Revenue concentration in VIP customers | 30 VIP customers (14%) generate 37% of revenue with an identified customer |
 | Main revenue driver | Electronics, 39.6% of revenue |
 | E-commerce business | Online + Mobile = 85.9% of revenue |
 | Beauty: high volume, low ticket | 2nd category by number of orders, but average ticket of 130 € (Electronics: 611 €) |
