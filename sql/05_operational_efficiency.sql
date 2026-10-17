@@ -17,7 +17,7 @@ ORDER BY num_orders DESC;
 -- Q: How much revenue is lost through cancellations and returns?
 -- Result: cancelled 46,650 € (177 orders, avg 266.57 €)
 --         returned  67,605 € (241 orders, avg 281.69 €)
---         Total lost: 114,255 € = 40% of gross revenue (288,140 €)
+--         Total lost: 114,255 € = 39.7% of gross revenue (288,140 €)
 SELECT
     order_status,
     COUNT(*)                     AS num_orders,
